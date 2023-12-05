@@ -10,6 +10,10 @@ typedef struct {
     char type;
 } transaction;
 
+void addTransaction();
+void getBalance();
+void getReport();
+
 transaction transactions[MAX_TRANSACTION];
 int length = 0;
 
