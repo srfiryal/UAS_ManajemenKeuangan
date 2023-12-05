@@ -131,7 +131,7 @@ void getReport() {
 
     printf("===== Laporan Keuangan =====\n\n");
     puts("---------------------------------------------------------");
-    puts("| Nama Transaksi\t | Kategori\t | Nominal\t|");
+    puts("| Nama Transaksi\t | Tipe\t\t | Nominal\t|");
     puts("---------------------------------------------------------");
 
     if (length == 0) {
