@@ -6,12 +6,13 @@
 
 // Struct transaksi
 typedef struct {
-    int nominal;
     char name[MAX_NAME + 1];
+    int nominal;
     char type;
 } transaction;
 
 // Prototype
+void mainMenu();
 void addTransaction();
 void getBalance();
 void getReport();
